@@ -63,6 +63,7 @@ nav a:hover {
 
 .hero img{
     display:cover;
+    max-width: 800px;
 }
 
 .hero h1 {
@@ -81,7 +82,7 @@ article {
     margin-top: 8%;
     opacity: 0.9;
     background-color: #8ECAE6;
-    left: 20%;
+    left: 10%;
     bottom: 40%;
 }
 
