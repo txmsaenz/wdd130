@@ -192,7 +192,6 @@ button {
 
 .radio {
     text-align: center;
-
 }
 
 button:hover {
@@ -206,6 +205,3 @@ footer{
     padding-top: 5px;
 }
 
-.wireframe {
-    left: 50px;
-}
