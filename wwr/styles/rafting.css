@@ -188,6 +188,7 @@ button {
     border-radius: .5rem;
     padding: .75rem;
     font-size: 1.25rem;
+
 }
 
 .radio {
@@ -209,21 +210,22 @@ footer{
     text-align: center;
 }
 
-.trips {
+.trips, .welcome {
     display:grid;
     grid-template-columns: 1fr, 1fr;
     grid-template-rows: repeat(6, 1fr, 2fr);
     width: 800px;
     background-color: #8ECAE6;
+    padding-top: 5px;
 }
 
-.trips img{
+.trips img {
     height: 300px;
     width: 450px;
     padding-top: 5px;
 }
 
-.item1 {
+.item1, .itemA {
     grid-row: 1;
     grid-column: span 2;
     background-color: #FFB703;
@@ -274,4 +276,38 @@ footer{
 .item9 {
     grid-column: 2;
     grid-row: 6;
+}
+
+.itemB {
+    grid-row: 2;
+    grid-column: span 2;
+    background-color: #FFB703;
+    text-align: center;
+}
+
+.itemC {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.itemD {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.itemE {
+    grid-column: 1;
+    grid-row: 4;
+    text-align: center;
+}
+
+.itemF {
+    grid-column: 2;
+    grid-row: 4;
+    text-align: center;
+}
+
+.trips img, .welcome img{
+    width: 390px;
+    padding: 5px;
 }
