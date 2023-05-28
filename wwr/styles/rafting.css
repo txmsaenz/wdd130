@@ -213,7 +213,7 @@ footer{
 .trips, .welcome {
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(6 1fr 2fr);
+    grid-template-rows: repeat (6, 1fr 2fr);
     width: 800px;
     background-color: #8ECAE6;
     padding-top: 5px;
