@@ -283,6 +283,7 @@ footer{
     grid-column: span 2;
     background-color: #FFB703;
     text-align: center;
+    padding-bottom: 7px;
 }
 
 .itemC {
@@ -299,6 +300,7 @@ footer{
     grid-column: 1;
     grid-row: 4;
     text-align: center;
+    padding-bottom: 7px;
 }
 
 .itemF {
